@@ -13,9 +13,9 @@ class Modal extends React.Component{
         if(typeof onClose === 'function') onClose();
     }
     render(){
-        const { visiable, title, children } = this.props;
+        const { visible, title, children } = this.props;
         return (
-            <div className="modal-wrapper" style={{display: !!visiable ? 'block' : 'none'}}>
+            <div className="modal-wrapper" style={{display: !!visible ? 'block' : 'none'}}>
                 <div className="modal">
                     <div className="modal-header">{ title }</div>
                     <div className="modal-body">{ children }</div>

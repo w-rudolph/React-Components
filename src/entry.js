@@ -28,7 +28,7 @@ class Home extends React.Component{
                 <p><TextArea onInput={this.onInput}  width="300px" rows={3} placeholder="input here ..."/></p>
                 
                 <div>
-                    <Modal title="服务站" visiable={ this.state.showModal } onClose={this.onClose.bind(this)}>
+                    <Modal title="服务站" visible={ this.state.showModal } onClose={this.onClose.bind(this)}>
                         <span>
                             Hello Modal
                         </span>
