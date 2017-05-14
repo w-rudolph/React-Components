@@ -26,6 +26,8 @@ class TextArea extends Input {
             } = this.props;
         const commonProps = {
             defaultValue: defaultValue || '',
+            rows,
+            cols,
             disabled,
             readOnly,
             required,
