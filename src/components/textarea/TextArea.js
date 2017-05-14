@@ -40,7 +40,7 @@ class TextArea extends Input {
         };
         const textAreaResizable = noResize ? 'noResize' : noResize;
         return (
-            <span className="textarea-wrapper"><textarea {...commonProps} className={textAreaResizable}></textarea></span>
+            <span className="textarea-wrapper" style={{width}}><textarea {...commonProps} className={textAreaResizable}></textarea></span>
         ) 
     }
 
