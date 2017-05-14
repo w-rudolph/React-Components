@@ -34,7 +34,7 @@ class Home extends React.Component{
                         </span>
                     </Modal>
                 </div>
-                <Button type="default" onClick={ () => this.setState({showModal:true}) }>show Modal</Button>&nbsp;
+                <Button disabled type="default" onClick={ () => this.setState({showModal:true}) }>show Modal</Button>&nbsp;
             </div>
         )
     }
