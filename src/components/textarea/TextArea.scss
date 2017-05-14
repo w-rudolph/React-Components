@@ -1,0 +1,12 @@
+.textarea-wrapper {
+    display: inline-block;
+    textarea{
+        width: 100%;
+        border: 1px solid #dbcdcd;
+        border-radius: 2px;
+        padding: 5px;
+        &.noResize{
+            resize: none;
+        }
+    }
+}
